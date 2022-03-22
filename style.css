@@ -1,9 +1,29 @@
+
+
+
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{ text-align: center;}
+
+
+body{
+    background-color: pink;
+}
+
 .row{
-    background-color: gray;
-    width: 90%;
-    height: 150px;
+    background-color: white;
+    width: 60%;
+    height: 160px;
+    padding: auto;
     margin: auto;
-    position: relative;
+   display: flex;
     
 }
 
@@ -13,4 +33,17 @@
 
 .row-2{
     border-bottom: 5px black solid;
+}
+
+.col-1{
+    border-right: 5px black solid ;
+}
+.col-2{
+    border-right:5px black solid;
+
+}
+.box{
+    width: 33.333%;
+    text-align: center;
+    font-size: 500%;
 }
