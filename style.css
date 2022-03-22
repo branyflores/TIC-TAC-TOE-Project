@@ -1,0 +1,16 @@
+.row{
+    background-color: gray;
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    
+}
+
+.row-1{
+    border-bottom: 5px black solid;
+}
+
+.row-2{
+    border-bottom: 5px black solid;
+}
