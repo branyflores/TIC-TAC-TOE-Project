@@ -1,49 +1,73 @@
 
+body{
+   
+    background-image: url("img/easter-2168521_1280.webp");
+    color:#666;
 
-
+}
 
 h1{
     text-align: center;
+    color:rgb(169, 204, 43);
 }
 
-h3{
+
+
+.cleafix{
+    clear:both
+}
+
+#container{
+    width: 350px;
+    overflow: auto;
+    margin: 40px auto;
+    background: #666;
+    padding-bottom: 40px;
+    border-radius: 10px;
+}
+
+
+#board li{
+   
+    float: left;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    font-size: 55px;
+    background: #333;
+    color: #ccc;
+    list-style: none;
     text-align: center;
-}
-
-h4{ text-align: center;}
-
-
-body{
-    background-color: pink;
-}
-
-.row{
-    background-color: white;
-    width: 60%;
-    height: 160px;
-    padding: auto;
-    margin: auto;
-   display: flex;
-    
-}
-
-.row-1{
-    border-bottom: 5px black solid;
-}
-
-.row-2{
-    border-bottom: 5px black solid;
-}
-
-.col-1{
-    border-right: 5px black solid ;
-}
-.col-2{
-    border-right:5px black solid;
+    border-radius: 5px;
 
 }
-.box{
-    width: 33.333%;
+
+#board li:hover{
+    cursor: pointer;
+    background: #000;
+
+}
+
+
+#reset{
+    border:0;
+    background: rgb(68, 68, 68);
+    color:rgb(117, 204, 66);
+    width: 70%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.o{
+     color : gray !important;
+}
+
+.x{
+    color: gray !important;
+}
+
+footer{
+    display: block;
     text-align: center;
-    font-size: 500%;
+    padding-top: 20px;
 }

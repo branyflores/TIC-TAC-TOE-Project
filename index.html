@@ -1,44 +1,29 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width-device-width, initial-scale=1">
-    <head>
         <title>Tic Tacx Toe</title>
-        <link rel ="stylesheet" type="text/css" media="screen" href="style.css">
-    
+        <link rel ="stylesheet" href="style.css">
+    </head>
         <body>
-            <header>
-                <h1>My Tic Tac Toe</h1>
-                <h3>Player 1 = O</h3>
-                <h3>Palyer 2 = X</h3>
-                <h4>Turn = Player()</h4>
-                <h4>Player() = Your Turn</h4>
-                <h3>You Win!</h3>
-                </header>
-                <div class ="board">
-                    <div class="row row-1">
-                        <div class="box col-1" id="1"></div>
-                        <div class="box col-2" id="2"></div>
-                        <div class="box col-3" id="3"></div>
-                    </div>
-                    <div class="row row-2">
-                        <div class="box col-1" id="1"></div>
-                        <div class="box col-2" id="2"></div>
-                        <div class="box col-3" id="3"></div>
-                    </div>
-                    <div class="row row-3">
-                        <div class="box col-1" id="1"></div>
-                        <div class="box col-2" id="2"></div>
-                        <div class="box col-3" id="3"></div>
-                    </div>
-                </div>
-               
-                
-
-        </body>
+             <div id="container">
+             <h1>Tic Tac Toe</h1>
+           <ul id="board">
+             <li id="spot1">+</li> 
+             <li id="spot2">+</li> 
+             <li id="spot3">+</li> 
+             <li id="spot4">+</li> 
+             <li id="spot5">+</li> 
+             <li id="spot6">+</li> 
+             <li id="spot7">+</li> 
+             <li id="spot8">+</li> 
+             <li id="spot9">+</li> 
+           </ul>
+           <div class="cleafix"></div>
+           <footer>
+               <button id="reset">reset game</button>
+           </footer>
+    
         <script src="js/jquery.js"></script>
         <script src="tictacpro.js"></script>
-        </head>
+        </body>
 </html>
