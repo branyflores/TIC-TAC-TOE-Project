@@ -21,9 +21,10 @@ h1{
     width: 350px;
     overflow: auto;
     margin: 40px auto;
-    background: #666;
+    background: rgba(255,255,255,.2);
     padding-bottom: 40px;
     border-radius: 10px;
+    
 }
 
 
@@ -59,11 +60,11 @@ h1{
 }
 
 .o{
-     color : gray !important;
+     color : gray; 
 }
 
 .x{
-    color: gray !important;
+    color: gray;
 }
 
 footer{

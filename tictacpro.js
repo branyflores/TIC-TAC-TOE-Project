@@ -42,7 +42,7 @@ if ($(this).hasClass('disable')){
            
     {alert ("Winner: o");
             $('#board li').text('+');
-            $('$board li').removeClass('disable');
+            $('#board li').removeClass('disable');
             $('#board li').removeClass('o');
           $('#board li').removeClass('x');
 
@@ -58,7 +58,7 @@ if ($(this).hasClass('disable')){
 
          { alert("Winner: x");
        $('#board li').text('+');
-       $('$board li').removeClass('disable');
+       $('#board li').removeClass('disable');
        $('#board li').removeClass('o');
        $('#boadr li').removeClass('x');
          }
@@ -68,9 +68,8 @@ if ($(this).hasClass('disable')){
 
     $('#reset').click(function(){
         $('#board li').text('+');
-        $('$board li').removeClass('disable');
+        $('#board li').removeClass('disable');
         $('#board li').removeClass('o');
-        $('#boadr li').removeClass('x');
         $('#boadr li').removeClass('x');
         turns = 0;
     
@@ -89,7 +88,7 @@ if ($(this).hasClass('disable')){
 //         $('#board li').text('+');
 //         $('$board li').removeClass('disable');
 //         $('#board li').removeClass('o');
-//         $('#boadr li').removeClass('x');
+//         $('#board li').removeClass('x');
 
 //        } else if ($(this).hasClass('disable')){
 //            alert('This spot in already filled');
