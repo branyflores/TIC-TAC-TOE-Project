@@ -1,8 +1,12 @@
 Project 01 - TIC TAC TOE
 
+========================================
+
 This is a basic simple version of Tic Tac Toe, that i created for my First Projects for SEIR COURSE, CLASS 52.
 I was chalenged to demostrate my skills using HTML, CSS AND JAVASCRIPT.
-========================================
+
+
+
 
 Game functions 
 
