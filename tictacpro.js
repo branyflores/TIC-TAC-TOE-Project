@@ -16,7 +16,7 @@ $(document).ready(function(){
     const spot8 = $('#spot8');
     const spot9 = $('#spot9');
 
-$('#board li').on('click', function(){
+$('#board li').on('click', function(){ ////////CLICK FUNCTION FOR LI'sSPOTS
 if ($(this).hasClass('disable')){
     return 
 }
@@ -31,7 +31,7 @@ if ($(this).hasClass('disable')){
 
  }
 
-    if (spot1.hasClass('o') && spot2.hasClass('o') && spot3.hasClass('o') || 
+    if (spot1.hasClass('o') && spot2.hasClass('o') && spot3.hasClass('o') || //
     spot4.hasClass('o') && spot5.hasClass('o') && spot6.hasClass('o') ||
     spot7.hasClass('o') && spot8.hasClass('o') && spot9.hasClass('o') ||
     spot1.hasClass('o') && spot4.hasClass('o') && spot7.hasClass('o') ||
